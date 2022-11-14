@@ -2,4 +2,48 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  
+}
+h1 {
+  text-align: center;
+}
+nav {
+  
+  display: flex;
+  gap: 1rem;
+  justify-content:center;
+
+}
+
+nav > a {
+  background-color: lightgray;
+  padding: 0 10px 0 10px;
+}
+figure {
+  font-size: smaller;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figcaption {
+  text-align: center;
+}
+section > p {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  text-align: center;
+
+}
+
+#details {
+  display: flex;
+  background: red;
+  justify-content:space-evenly;
+  text-align: center;
+
 }
